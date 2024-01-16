@@ -7,27 +7,27 @@
     <title>Landing Page</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div> Nahg Al-Rajaa </div>
+    <header class="header-colors">
+        <div class="flex-col header mx-auto gap-7">
 
-            <ul>
-                <li> Contact </li>
-                <li> About Us </li>
-                <li> Pricing </li>
-            </ul>
-        </nav>
-
-        <div>
-            <div> Nahg Al-Rajaa contracting </div>
-            <div> High quality work for affordable prices</div>
-            <button> Sign Up </button>
+            <nav class="flex-row justify-space-between align-center">
+                <div class="logo"> Nahg Al-Rajaa </div>
+                <ul class="flex-row header-secondary-text gap-2">
+                    <li><a href="#"> Contact </a></li>
+                    <li><a href="#"> About Us </a></li>
+                    <li><a href="#"> Pricing </a></li>
+                </ul>
+            </nav>
+            
+            <div class="flex-row gap-5 wrap">
+                <div class="flex-col flex-1 gap-2">
+                    <div class="header-main-text"> Nahg Al-Rajaa Contracting </div>
+                    <div class="header-secondary-text"> High quality work for affordable prices, do not hesitate to contact us and learn more about our company.</div>
+                    <button class="button"> Order </button>
+                </div>
+                <img class="flex-1" id="cover-image" src="./img/cover.jpg" rel="image of engineers standing near a project site">
+            </div>
         </div>
-
-        <div>
-            <img src="./img/cover.jpg" rel="image of engineers standing near a project site">
-        </div>
-
     </header>
 
     
