@@ -129,8 +129,9 @@ ul {
 .button {
     background-color: #3882F6;
     color: white;
-    font-weight: 900;
-    font-size: 1em;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
     border-style: none;
     align-self: flex-start;
     border-radius: 1em;
@@ -177,4 +178,33 @@ main .flex-row {
     color: rgb(65, 77, 95);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+}
+
+.quote-section {
+    padding: 7rem 0rem;
+    margin: 0;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    margin-left: 20%;
+}
+
+.quote-text {
+    margin: 1rem;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    box-sizing: border-box;
+    color:#1F2937
+}
+
+.quoted-person {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#1F2937
 }
