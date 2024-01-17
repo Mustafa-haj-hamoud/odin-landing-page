@@ -253,3 +253,12 @@ main .flex-row {
     color: #3882F6;
     
 }
+
+footer {
+    padding: 3rem 0rem;
+    background-color:#1F2937;
+    color:#E5E7EB;
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
